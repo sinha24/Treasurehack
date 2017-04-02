@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/activity_startplay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#515151"
+    android:padding="16sp"
+    tools:context="com.solipsism.treasurehack.startplay">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginBottom="25sp"
+        android:textAlignment="center"
+        android:text="Reach the initial point to start the HACK"/>
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:background="#00b3ca"
+        android:textSize="35sp"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:text="PLAY!"
+        />
+    <Button
+        android:id="@+id/inst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:background="#f69256"
+        android:layout_marginTop="20sp"
+        android:textSize="35sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="5sp"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:text="Instructions"
+        />
+
+</LinearLayout>
